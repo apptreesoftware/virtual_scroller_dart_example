@@ -1,7 +1,6 @@
-# virtual_scroller_angulardart_example
+# virtual_scroller AngularDart example
 
-A web app that uses [AngularDart](https://webdev.dartlang.org/angular) and
-[AngularDart Components](https://webdev.dartlang.org/components).
+[virtual_scroller] example app using AngularDart components
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+[virtual_scroller]: https://github.com/apptreesoftware/virtual_scroller
+
