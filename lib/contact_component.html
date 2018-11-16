@@ -1,0 +1,7 @@
+<img *ngIf="contact != null" src="{{contact.image}}" />
+<div *ngIf="contact != null" class="container">
+    <div class="descriptions">
+        <p class="name">{{contact.first}} {{contact.last}}</p>
+        <p>{{contact.mediumText}}</p>
+    </div>
+</div>
