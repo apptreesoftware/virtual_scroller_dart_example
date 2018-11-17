@@ -10,7 +10,8 @@ environment:
 dependencies:
   angular: ^5.0.0
   angular_components: ^0.9.0
-  virtual_scroller: ^0.0.1
+  virtual_scroller:
+    path: /Users/john/code/projects/virtual_scroller
   http: any
 
 dev_dependencies:

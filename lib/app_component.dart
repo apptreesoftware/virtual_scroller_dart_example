@@ -26,6 +26,9 @@ class AppComponent implements OnInit {
   @ViewChild('parentDiv')
   DivElement parentDiv;
 
+  @ViewChild('scrollContainer')
+  DivElement scrollContainer;
+
   List<Contact> _contacts;
 
   VirtualScroller _scroller;
@@ -60,7 +63,7 @@ class AppComponent implements OnInit {
         ref.instance.contact = null;
         _pool.add(child);
       },
-    );
+    )..scrollTarget = scrollContainer;
     loadContacts();
   }
 
